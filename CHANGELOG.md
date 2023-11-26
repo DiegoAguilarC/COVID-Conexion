@@ -1,15 +1,14 @@
-# Changelog
 
-## v1.0.0
+Historial de Cambios
+v1.0.0
+Añadido o Cambiado
 
-### Added or Changed
-- Added this changelog :)
-- Fixed typos in both templates
-- Back to top links
-- Added more "Built With" frameworks/libraries
-- Changed table of contents to start collapsed
-- Added checkboxes for major features on roadmap
+¡Añadido este registro de cambios! :)
+Corregidos errores tipográficos en ambas plantillas
+Enlaces "Volver arriba"
+Añadidos más frameworks/bibliotecas en "Construido Con"
+Cambiada la tabla de contenidos para comenzar colapsada
+Añadidas casillas de verificación para características importantes en la hoja de ruta
+Eliminado
 
-### Removed
-
-- Some packages/libraries from acknowledgements I no longer use
+Algunos paquetes/bibliotecas de los agradecimientos que ya no utilizo
