@@ -1,22 +1,22 @@
 ---
-name: "Bug report \U0001F41E"
-about: Create a bug report
-labels: bug
+Nombre: "Reporte de Error \U0001F41E"
+Acerca_de: Crear un reporte de error
+Etiquetas: error
 
 ---
 
-## Describe the bug
-A clear and concise description of what the bug is.
+## Descripción del error
+Una descripción clara y concisa de cuál es el error.
 
-### Steps to reproduce
-Steps to reproduce the behavior.
+### Pasos para reproducir
+Pasos para reproducir el comportamiento.
 
-### Expected behavior
-A clear and concise description of what you expected to happen.
+### Comportamiento esperado
+Una descripción clara y concisa de lo que esperabas que sucediera.
 
-### Environment
- - OS: [e.g. Arch Linux]
- - Other details that you think may affect.
+### Entorno
+ - Sistema Operativo: [ej. Arch Linux]
+ - Otros detalles que crees que puedan afectar.
 
-### Additional context
-Add any other context about the problem here.
+### Contexto adicional
+Añade cualquier otro contexto sobre el problema aquí.
