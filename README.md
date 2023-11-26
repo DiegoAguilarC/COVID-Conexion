@@ -160,18 +160,21 @@ Link Del Proyecto: [https://github.com/DiegoAguilarC/COVID-Conexion](https://git
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## Reconocimientos
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Quiero expresar mi agradecimiento a las siguientes personas y recursos que han contribuido de manera directa o indirecta a este proyecto:
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+- [Elegir una Licencia de Código Abierto](https://choosealicense.com) - Guía útil para seleccionar una licencia adecuada para mi proyecto.
+- [Hoja de Trucos de Emojis de GitHub](https://www.webpagefx.com/tools/emoji-cheat-sheet) - Para añadir un toque de diversión a mis mensajes y documentación.
+- [Hoja de Trucos de Flexbox de Malven](https://flexbox.malven.co/) - Recurso esencial para entender y utilizar el modelo de diseño Flexbox.
+- [Hoja de Trucos de Grid de Malven](https://grid.malven.co/) - Referencia rápida para trabajar con el sistema de diseño Grid.
+- [Escudos de Imágenes](https://shields.io) - Para crear fácilmente escudos para mi repositorio y resaltar información clave.
+- [Páginas de GitHub](https://pages.github.com) - Para alojar mi sitio web estático directamente desde mi repositorio de GitHub.
+- [Font Awesome](https://fontawesome.com) - Iconos de alta calidad que mejoran la apariencia visual de mi proyecto.
+- [Iconos de React](https://react-icons.github.io/react-icons/search) - Conjunto de iconos específicos para proyectos basados en React.
+
+Agradezco a toda la comunidad de código abierto por compartir conocimientos y recursos que han enriquecido mi experiencia de desarrollo.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
