@@ -121,15 +121,11 @@ Explicacion de como Instalarlo
 
 
 <!-- EJEMPLOS DE USO -->
-## Uso
+## Ejemplos de Uso
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+A continuación, se presentan algunos ejemplos prácticos de cómo se puede utilizar este proyecto en diferentes escenarios. Además, se incluyen capturas de pantalla, ejemplos de código y demos para ilustrar su funcionalidad
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- PLAN DE DESARROLLO -->
 ## PLAN DE DESARROLLO
@@ -144,7 +140,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 ## License
