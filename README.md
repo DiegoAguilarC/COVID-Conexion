@@ -1,72 +1,35 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
+<!-- LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">COVID Connect</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Con COVID Connect, accede a la información sobre el COVID!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </div>
 
 
-
-<!-- TABLE OF CONTENTS -->
+<!-- TABLA DE CONTENIDOS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Tabla De Contenidos</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">Acerca del proyecto</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with">Construido con</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisites">Prerequisitos</a></li>
+        <li><a href="#installation">Instalacion</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -80,65 +43,71 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- ACERCA DEL PROYECTO -->
+## Acerca Del Proyecto
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://covidtracking.com/)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+<b> COVID Connection </b> es una aplicación diseñada para proporcionar información detallada y actualizada sobre la pandemia de la COVID-19. Nos enfocamos en ofrecer datos clave, como la fecha más reciente, casos confirmados y fallecimientos, de manera eficiente y accesible.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+<b>Características Principales:</b>
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+<b>Acceso Preciso a Datos:</b> Nuestra aplicación accede a una API específica sobre la COVID-19 para proporcionar información actualizada de manera regular.
 
-Use the `BLANK_README.md` to get started.
+<b>Interfaz Intuitiva:</b> Diseñamos una interfaz amigable y fácil de usar para permitir a los usuarios acceder de manera eficiente a la información esencial.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<b>Datos Detallados:</b> Presentamos de manera clara la fecha actualizada, casos confirmados y fallecimientos, brindando a los usuarios una visión completa de la situación.
 
+<b> COVID Connection </b> se esfuerza por ser una herramienta confiable en la lucha contra la COVID-19, proporcionando información valiosa y actualizada. Creemos en la importancia de la transparencia y accesibilidad de los datos, y nuestro proyecto refleja este compromiso.
 
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+¡Únete a nosotros mientras enfrentamos juntos los desafíos de la pandemia! <b> COVID Connection </b> está aquí para ofrecer conocimiento y apoyo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- GETTING STARTED -->
-## Getting Started
+### Desarrollado Con
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Desarrollado con:
+- C++ (lenguaje de programación)
+- Biblioteca httplib (para el manejo de HTTP, incluida en el proyecto)
+- OpenAI's GPT-3.5 (ChatGPT) para la inteligencia artificial de procesamiento de lenguaje natural
+- Craiyon AI (otra biblioteca o servicio específico que hayas utilizado)
+- Replit (plataforma de desarrollo en línea)
 
-### Prerequisites
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+<!-- EMPEZANDO -->
+## Empezando
+
+¡Bienvenido a [COVID Connection]! Para comenzar, sigue estos pasos sencillos:
+
+### Prerequisitos
+
+Descarga httplib.h desde GitHub:
+Puedes hacerlo ejecutando el siguiente comando en el terminal de Replit:
   ```sh
-  npm install npm@latest -g
+  wget https://github.com/yhirose/cpp-httplib/raw/master/httplib.h
+  ```
+Crea un directorio include:
+Crea un directorio llamado include para almacenar los archivos de encabezado:
+  ```sh
+  mkdir include
+  ```
+Mueve httplib.h al directorio include:
+Mueve el archivo httplib.h al directorio include:
+  ```sh
+  mv httplib.h include/
   ```
 
-### Installation
+### Instalacion
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+Explicacion de como Instalarlo
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+
+1. Clone el repositorio:
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   wget https://github.com/yhirose/cpp-httplib/raw/master/httplib.h
    ```
 3. Install NPM packages
    ```sh
@@ -153,8 +122,8 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
+<!-- EJEMPLOS DE USO -->
+## Uso
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
@@ -164,8 +133,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
-<!-- ROADMAP -->
-## Roadmap
+<!-- PLAN DE DESARROLLO -->
+## PLAN DE DESARROLLO
 
 - [x] Add Changelog
 - [x] Add back to top links
@@ -180,25 +149,6 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- LICENSE -->
 ## License
 
@@ -208,8 +158,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 
-<!-- CONTACT -->
-## Contact
+<!-- CONTACTO -->
+## Contacto
 
 Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
