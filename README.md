@@ -106,17 +106,15 @@ Explicacion de como Instalarlo
 
 
 1. Clone el repositorio:
-   ```sh
-   wget https://github.com/yhirose/cpp-httplib/raw/master/httplib.h
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+  ```sh
+  git clone https://github.com/DiegoAguilarC/COVID-Conexion.git
+  cd COVID-Conexion
+  ```
+2. Compila y ejecuta el proyecto:
+  ```sh
+  make
+  ./COVID-Conexion
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,15 +134,14 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- PLAN DE DESARROLLO -->
 ## PLAN DE DESARROLLO
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
+- [x] Agregar Historial de Cambios
+- [x] Agregar enlaces "Volver arriba"
+- [ ] Agregar Plantillas Adicionales con Ejemplos
+- [ ] Agregar un documento de "componentes" para copiar y pegar fácilmente secciones del readme
+- [ ] Soporte para Múltiples Idiomas
     - [ ] Chinese
-    - [ ] Spanish
+    - [ ] Ingles
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,7 +149,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distribuido bajo la Licencia MIT. Consulta LICENSE.txt para obtener más información.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,13 +157,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACTO -->
 ## Contacto
+Covid Connection - [@CovidConnect](https://twitter.com/CovidConnection) - CovidConnection@gmail.com
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Link Del Proyecto: [https://github.com/DiegoAguilarC/COVID-Conexion](https://github.com/DiegoAguilarC/COVID-Conexion)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ACKNOWLEDGMENTS -->
