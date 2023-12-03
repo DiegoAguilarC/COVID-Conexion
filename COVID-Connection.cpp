@@ -1,9 +1,11 @@
 #include <iostream>
-#include "include/httplib.h"
+#include "httplib.h"
+#include "json.hpp"
 #include <unordered_map>
 #include <sstream>
 #include <iomanip>
 
+using json = nlohmann::json;
 using namespace std;
 
 // Definición de la estructura para almacenar datos relacionados con COVID-19
@@ -32,48 +34,40 @@ std::string make_api_request(const std::string& path) {
     }
 }
 
-// Función para analizar los datos de COVID-19 desde una cadena JSON
+// Función para analizar los datos de COVID-19 desde una cadena JSON utilizando la biblioteca json.hpp
 CovidDataTable parse_covid_data(const std::string& json_str) {
-    CovidDataTable covid_data_table;  // Crear una tabla para almacenar datos de COVID-19
+    CovidDataTable covid_data_table;
 
-    // Buscar las posiciones de las claves de interés en la cadena JSON
-    size_t date_pos = json_str.find("\"date\":");
-    size_t positive_pos = json_str.find("\"positive\":");
-    size_t death_pos = json_str.find("\"death\":");
+    try {
+        // Parsear la cadena JSON
+        json json_data = json::parse(json_str);
 
-    // Iterar mientras se encuentren instancias de la clave "date" en la cadena JSON
-    while (date_pos != std::string::npos) {
-        // Extraer fechas, casos positivos y muertes
-        size_t date_end = json_str.find(",", date_pos);
-        size_t positive_end = json_str.find(",", positive_pos);
-        size_t death_end = json_str.find("}", death_pos);
+        // Iterar sobre los elementos del array JSON
+        for (const auto& data_entry : json_data) {
+            // Obtener valores de las claves y convertirlos a los tipos adecuados
+            std::string date_match = data_entry["date"];
+            int positive_match = data_entry["positive"];
+            int death_match = data_entry["death"];
 
-        // Obtener valores de las subcadenas y convertirlos a los tipos adecuados
-        std::string date_match = json_str.substr(date_pos + 8, date_end - date_pos - 9);
-        int positive_match = std::stoi(json_str.substr(positive_pos + 12, positive_end - positive_pos - 12));
-        int death_match = std::stoi(json_str.substr(death_pos + 8, death_end - death_pos - 8));
+            // Crear una instancia de la estructura CovidData y asignar valores
+            CovidData covid_data;
+            covid_data.date = date_match;
+            covid_data.positive = positive_match;
+            covid_data.death = death_match;
 
-        // Crear una instancia de la estructura CovidData y asignar valores
-        CovidData covid_data;
-        covid_data.date = date_match;
-        covid_data.positive = positive_match;
-        covid_data.death = death_match;
-
-        // Almacenar la instancia en la tabla usando la fecha como clave
-        covid_data_table[date_match] = covid_data;
-
-        // Buscar la siguiente instancia de las claves
-        date_pos = json_str.find("\"date\":", date_end);
-        positive_pos = json_str.find("\"positive\":", positive_end);
-        death_pos = json_str.find("\"death\":", death_end);
+            // Almacenar la instancia en la tabla usando la fecha como clave
+            covid_data_table[date_match] = covid_data;
+        }
+    } catch (const json::parse_error& e) {
+        std::cerr << "Error al analizar datos JSON: " << e.what() << std::endl;
     }
 
-    return covid_data_table;  // Devolver la tabla de datos de COVID-19
+    return covid_data_table;
 }
 
 // Función principal
 int main() {
-    std::string path = "https://covidtracking.com/data";
+    std::string path = "/v2/us/daily.json";
     std::string response = make_api_request(path);
 
     // Verificar si la respuesta no está vacía
@@ -83,7 +77,7 @@ int main() {
 
         // Iterar sobre la tabla e imprimir los detalles de cada dato
         for (const auto& entry : covid_data_table) {
-            std::cout << "Fecha: " << entry.first << ", Casos confirmados: " << entry.second.positive
+            std::cout << "Fecha: " << entry.first << ", Casos Confirmados Totales: " << entry.second.positive
                       << ", Fallecimientos: " << entry.second.death << std::endl;
         }
     } else {
